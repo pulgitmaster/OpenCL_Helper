@@ -9,6 +9,16 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.tar.gz
+*.o
+.*.dblite
+.*.swp
+3rdparty
+build*
+weights
+packages
+.vscode
+output
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
