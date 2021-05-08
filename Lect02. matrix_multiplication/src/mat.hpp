@@ -1,3 +1,6 @@
+#ifndef _MAT_HPP_
+#define _MAT_HPP_
+
 #include <iomanip> // for std::setprecision()
 #include <limits>
 template <typename T>
@@ -123,3 +126,5 @@ public:
         std::cout << "\n";
     }
 };
+
+#endif // _MAT_HPP_
