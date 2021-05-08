@@ -9,8 +9,14 @@
 > Nvidia 기준
 
 
+#### All platforms ####
+```
+mkdir build
+cd build
+cmake .. -DCMAKE_GENERATOR_PLATFORM=x64
+```
 
-### Windows ###
+#### Windows ####
 
 Tool: [VisualStudio](https://visualstudio.microsoft.com/ko/)
 
