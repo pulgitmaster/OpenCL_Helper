@@ -10,7 +10,7 @@ if (NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
 	set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Debug" "Release")
 endif ()
 
-project(OpenCL_Vector_Addition)
+project(OpenCL_Matrix_Multiplication)
 
 find_package( OpenCL REQUIRED )
 
@@ -20,5 +20,5 @@ file(GLOB SOURCE_DIR
     "src/*.hpp"
     "src/*.cpp"
 )
-add_executable(OpenCL_Vector_Addition ${SOURCE_DIR})
-target_link_libraries(OpenCL_Vector_Addition ${OpenCL_LIBRARY})
+add_executable(OpenCL_Matrix_Multiplication ${SOURCE_DIR})
+target_link_libraries(OpenCL_Matrix_Multiplication ${OpenCL_LIBRARY})
